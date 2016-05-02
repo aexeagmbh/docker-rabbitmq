@@ -1,4 +1,4 @@
-FROM rabbitmq
+FROM aexea/rabbitmq
 
 RUN rabbitmq-plugins enable --offline rabbitmq_management
 
